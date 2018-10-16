@@ -31,6 +31,5 @@ class BinaryTest(unittest.TestCase):
         self.assertEqual(longestBinary(100000), 2)
         self.assertEqual(longestBinary(63), 6)
 
-
 if __name__ == "__main__":
     unittest.main()
