@@ -8,3 +8,4 @@
 
 # The idea is to create a graph of characters and then find topological sorting of the created graph.
 # This is slightly above my level. I currently can't solve this 4.1 difficulty level.
+
