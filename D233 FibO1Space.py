@@ -12,9 +12,11 @@ def fib(n):
         return 1
     else:
         for i in range(2, n+1):
+            print(res)
             res = pre + prepre
-            pre = res
             prepre = pre
+            pre = res
+            
     return res
 
-print(fib(0))
+print(fib(2))
